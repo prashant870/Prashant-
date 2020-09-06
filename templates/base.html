@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>prashant maurya</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    </head>
+    <body>
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/popper.js' %}"></script>
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+        <div class="container mt-5">
+            <h1 class="text-center alert alert-danger">Django Assignment-Qzzo</h1>
+            {% block content %} {% endblock content%}
+        </div>
+    </body>
+</html>
